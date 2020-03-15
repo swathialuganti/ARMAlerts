@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "alertName": {
+      "value": "PurnaDemoAlertCPUforVM"
+    },
+    "alertDescription": {
+      "value": "CPU alerts for virtual machines"
+    },
+    "alertSeverity": {
+      "value": 3
+    },
+    "isEnabled": {
+      "value": true
+    },
+    "resourceId": {
+      "value": "/subscriptions/a9b9ec1f-bb63-49b8-b35b-3b368695b78b/resourceGroups/DemoGroup/providers/Microsoft.Compute/virtualMachines/DemoWebServer"
+    },
+    "metricName": {
+      "value": "Percentage CPU"
+    },
+    "operator": {
+      "value": "GreaterThan"
+    },
+    "threshold": {
+      "value": "40"
+    },
+    "timeAggregation": {
+      "value": "Average"
+    },
+    "actionGroupId": {
+      "value": "/subscriptions/a9b9ec1f-bb63-49b8-b35b-3b368695b78b/resourceGroups/DemoGroup/providers/Microsoft.Insights/actionGroups/purnactiongroup"
+    }
+  }
+}
