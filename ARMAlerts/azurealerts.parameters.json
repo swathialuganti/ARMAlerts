@@ -15,7 +15,7 @@
       "value": true
     },
     "resourceId": {
-      "value": "/subscriptions/a9b9ec1f-bb63-49b8-b35b-3b368695b78b/resourceGroups/DemoGroup/providers/Microsoft.Compute/virtualMachines/DemoWebServer"
+      "value": "/subscriptions/a9b9ec1f-xxxx-49b8-b3sdfb-3b368695b78b/resourceGroups/DemoGroup/providers/Microsoft.Compute/virtualMachines/DemoWebServer"
     },
     "metricName": {
       "value": "Percentage CPU"
