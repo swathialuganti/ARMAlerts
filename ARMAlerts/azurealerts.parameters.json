@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "alertName": {
-      "value": "PurnaDemoAlertCPUforVM"
+      "value": "DemoAlertCPUforVM"
     },
     "alertDescription": {
       "value": "CPU alerts for virtual machines"
@@ -15,7 +15,7 @@
       "value": true
     },
     "resourceId": {
-      "value": "/subscriptions/a9b9ec1f-xxxx-49b8-b3sdfb-3b368695b78b/resourceGroups/DemoGroup/providers/Microsoft.Compute/virtualMachines/DemoWebServer"
+      "value": "/subscriptions/6842be75-1763-413f-94e0-10a1af293710/resourceGroups/SwathiTestGroup/providers/Microsoft.Compute/virtualMachines/Testmachine"
     },
     "metricName": {
       "value": "Percentage CPU"
@@ -30,7 +30,7 @@
       "value": "Average"
     },
     "actionGroupId": {
-      "value": "/subscriptions/a9b9ec1f-xxxx-49b8-b3sdfb-3b368695b78b/resourceGroups/DemoGroup/providers/Microsoft.Insights/actionGroups/purnactiongroup"
+      "value": "/subscriptions/6842be75-1763-413f-94e0-10a1af293710/resourceGroups/DemoGroup/providers/Microsoft.Insights/actionGroups/swathiactiongroup"
     }
   }
 }
